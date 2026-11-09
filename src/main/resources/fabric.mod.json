@@ -1,0 +1,41 @@
+{
+    "schemaVersion": 1,
+    "id": "openstage",
+    "version": "${version}",
+    "name": "OpenStage",
+    "description": "In-game animation and posing studio for Minecraft. Animate characters with bending rigs, edit camera paths, sync audio tracks and create cinematics directly in your world.",
+    "authors": [
+        "ItzNoRiley"
+    ],
+    "contact": {
+        "homepage": "https://github.com/openstage-mc/openstage",
+        "sources": "https://github.com/openstage-mc/openstage"
+    },
+    "license": "MIT",
+    "icon": "assets/openstage/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.openstage.OpenStageMod"
+        ],
+        "client": [
+            "net.openstage.client.OpenStageClient"
+        ]
+    },
+    "mixins": [
+        "openstage.mixins.json",
+        {
+            "config": "openstage.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.5",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "owo-lib": "*"
+    }
+}

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" width="160" alt="OpenStage" />
+</p>
+
 # OpenStage
 
 OpenStage is a standalone in-game animation studio and cinematic toolkit for Minecraft 1.21.1 (Fabric).
@@ -21,7 +25,7 @@ Run Gradle to compile and build the mod jar:
 ./gradlew build
 ```
 
-The compiled mod jar will be in `build/libs/openstage-1.0-release.jar`.
+The compiled mod jar will be in `build/libs/openstage-1.21.1.jar`.
 
 ## License
 

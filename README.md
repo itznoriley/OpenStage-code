@@ -29,4 +29,4 @@ The compiled mod jar will be in `build/libs/openstage-1.21.1.jar`.
 
 ## License
 
-MIT License. Developed by ItzNoRiley.
+MIT License

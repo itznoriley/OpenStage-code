@@ -123,9 +123,9 @@ public class SettingsDialog {
         int closeX = dx + dw - closeSize - 6;
         int closeY = dy + 4;
         boolean closeHov = effMouseX >= closeX && effMouseX <= closeX + closeSize && effMouseY >= closeY && effMouseY <= closeY + closeSize;
-        int verW = font.width("v1.0-release");
+        int verW = font.width("v1.21.1");
         int verX = closeX - verW - 8;
-        graphics.drawString(font, "v1.0-release", verX, dy + 8, 0xFF64748B, false);
+        graphics.drawString(font, "v1.21.1", verX, dy + 8, 0xFF64748B, false);
 
         graphics.fill(closeX, closeY, closeX + closeSize, closeY + closeSize, closeHov ? 0xFFDC2626 : 0xFF334155);
         graphics.renderOutline(closeX, closeY, closeSize, closeSize, closeHov ? 0xFFEF4444 : 0xFF475569);

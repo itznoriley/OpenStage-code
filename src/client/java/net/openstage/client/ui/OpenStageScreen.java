@@ -50,7 +50,7 @@ public class OpenStageScreen extends Screen implements
 
         GraphEditorPanel.GraphActionListener {
     private static final Logger LOGGER = LoggerFactory.getLogger("OpenStage/Screen");
-    private static final String VERSION = "1.0-release";
+    private static final String VERSION = "1.21.1";
     private static final float LEFT_RATIO   = 0.20f;
     private static final float CENTER_RATIO = 0.55f;
     private static final float VIEWPORT_HEIGHT_RATIO = 0.60f;

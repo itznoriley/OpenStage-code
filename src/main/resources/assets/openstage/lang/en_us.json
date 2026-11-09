@@ -3,5 +3,6 @@
   "item.openstage.model_block": "Model Block",
   "key.openstage.open_editor": "Open Animation Editor (OpenStage)",
   "category.openstage": "OpenStage",
-  "entity.openstage.actor": "Actor"
+  "entity.openstage.actor": "Actor",
+  "modmenu.donations": "Support"
 }

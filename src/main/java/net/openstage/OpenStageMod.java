@@ -62,7 +62,7 @@ public class OpenStageMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("[OpenStage] Initialising OpenStage v1.0-release ...");
+        LOGGER.info("[OpenStage] Initialising OpenStage v1.21.1 ...");
 
         FabricDefaultAttributeRegistry.register(ACTOR_ENTITY_TYPE, ActorEntity.createActorAttributes());
 

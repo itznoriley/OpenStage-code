@@ -3,13 +3,21 @@
     "id": "openstage",
     "version": "${version}",
     "name": "OpenStage",
-    "description": "In-game animation and posing studio for Minecraft. Animate characters with bending rigs, edit camera paths, sync audio tracks and create cinematics directly in your world.",
+    "description": "OpenStage is a powerful in-game animation studio for Minecraft which allows creating, posing, and animating characters directly in the world",
     "authors": [
         "ItzNoRiley"
     ],
     "contact": {
-        "homepage": "https://github.com/openstage-mc/openstage",
-        "sources": "https://github.com/openstage-mc/openstage"
+        "homepage": "https://github.com/itznoriley/OpenStage-code",
+        "sources": "https://github.com/itznoriley/OpenStage-code",
+        "issues": "https://github.com/itznoriley/OpenStage-code/issues"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.donations": "https://www.donationalerts.com/r/itznoriley"
+            }
+        }
     },
     "license": "MIT",
     "icon": "assets/openstage/icon.png",

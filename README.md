@@ -14,6 +14,14 @@ OpenStage is a standalone in-game animation studio and cinematic toolkit for Min
 - **Cinematic Camera:** Smooth spline interpolation, curve easing presets, and keyframed camera tracks.
 - **In-Game UI:** Dark slate interface with collapsible panels and dual language support (Russian and English).
 
+## Quick Start
+
+1. Install **Fabric Loader** (0.19.5+) and **Fabric API** on Minecraft 1.21.1.
+2. Drop the mod `.jar` into `.minecraft/mods`.
+3. In-game:
+   - Press **`O`** to open the animation studio.
+   - Obtain the Model Block using `/give @s openstage:model_block` (or find it in the Creative tab under Functional Blocks).
+
 ## Building from source
 
 Requirements:
